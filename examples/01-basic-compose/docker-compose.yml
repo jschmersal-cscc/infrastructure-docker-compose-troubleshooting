@@ -1,0 +1,10 @@
+version: "3"
+services:
+  webapp:
+    image: "infra-example-3-1:0.1"
+    ports:
+      - "8080:5000"
+  db:
+    image: "redis:alpine"
+    volumes:
+      - "${PWD}/local-data:/data"

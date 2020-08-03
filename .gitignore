@@ -1,0 +1,6 @@
+.*.sw*
+output/
+*.log
+*.out
+*.bak
+
